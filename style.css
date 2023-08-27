@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  position: relative;
+  padding: 10px;
+  background-color: lightskyblue;
+  height: 200vh;
+}
+
+.child {
+  padding: 10px;
+}
+
+.child-one {
+  background-color: lightgreen;
+  position: absolute;
+  bottom: 110vh;
+  right: 10px;
+}
+
+.child-two {
+  background-color: coral;
+  position: sticky;
+}
+
+.child-three {
+  background-color: mediumorchid;
+  position: fixed;
+}
